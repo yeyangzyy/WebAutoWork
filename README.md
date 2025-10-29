@@ -1,6 +1,6 @@
 # 接口自动化测试项目
 
-基于Python + pytest + requests的接口自动化测试框架。
+基于Python + pytest + requests + selenium的web自动化测试框架。
 
 ## 项目结构
 WebAutoWork
@@ -37,8 +37,7 @@ conda env create -f environment.yml
 pip install -r requirements.txt
 
 # 使用pytest运行测试
-
-python run_test.py dev 
+pytest test_example.py
 
 
 
