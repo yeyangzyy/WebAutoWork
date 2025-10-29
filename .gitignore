@@ -1,0 +1,31 @@
+# Virtual environment
+venv/
+.env/
+.env.local
+.env.prod
+
+# Logs
+logs/
+*.log
+
+# Reports
+reports/
+*.html
+*.xml
+*.json
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
