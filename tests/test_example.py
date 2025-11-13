@@ -12,8 +12,8 @@ class TestExample:
         base_page = BasePage(driver)
         
         # 定位器
-        SEARCH_INPUT = (By.ID, "kw")
-        SEARCH_BUTTON = (By.ID, "su")
+        SEARCH_INPUT = (By.ID, "chat-textarea")
+        SEARCH_BUTTON = (By.ID, "chat-submit-button")
         
         # 执行搜索操作
         assert base_page.input_text(SEARCH_INPUT, "自动化测试"), "搜索框输入失败"
